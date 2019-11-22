@@ -15,6 +15,6 @@
 #import "UIAlertController+JGACAlertController.h"
 #import "UIViewController+JGACAlertController.h"
 
-FOUNDATION_EXPORT double JGAlertControllerVersionNumber;
-FOUNDATION_EXPORT const unsigned char JGAlertControllerVersionString[];
+FOUNDATION_EXPORT double SJGAlertControllerVersionNumber;
+FOUNDATION_EXPORT const unsigned char SJGAlertControllerVersionString[];
 

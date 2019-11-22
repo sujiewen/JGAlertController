@@ -20,10 +20,10 @@ FOUNDATION_EXPORT const unsigned char JGAlertControllerVersionString[];
 // JG: 作者名
 // AC: Alert Controller
 
-#if __has_include(<JGAlertController/JGAlertController.h>)
+#if __has_include(<SJGAlertController/JGAlertController.h>)
 
-#import <JGAlertController/JGACAlertController.h>
-#import <JGAlertController/UIViewController+JGACAlertController.h>
+#import <SJGAlertController/JGACAlertController.h>
+#import <SJGAlertController/UIViewController+JGACAlertController.h>
 
 #else
 

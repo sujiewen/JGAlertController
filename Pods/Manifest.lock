@@ -1,25 +1,25 @@
 PODS:
-  - JGAlertController (0.0.4):
-    - JGSourceBase (~> 0.1.0)
   - JGSourceBase (0.1.0):
     - JGSourceBase/Common (= 0.1.0)
   - JGSourceBase/Common (0.1.0)
+  - SJGAlertController (0.0.4.1):
+    - JGSourceBase (~> 0.1.0)
 
 DEPENDENCIES:
-  - JGAlertController (from `.`)
+  - SJGAlertController (from `.`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - JGSourceBase
 
 EXTERNAL SOURCES:
-  JGAlertController:
+  SJGAlertController:
     :path: "."
 
 SPEC CHECKSUMS:
-  JGAlertController: cda2a0bf2e9f566317b7481cd053c25ac29f2707
   JGSourceBase: 03fca616c3686a7197fcac672201d7f083fd7d8b
+  SJGAlertController: fd33dde9a90a8895d850dc7a2aeca9636153a5c9
 
-PODFILE CHECKSUM: 2f0ec704590639717e80ade9f9c1ae099ec0c61c
+PODFILE CHECKSUM: 6aafd638d2ee3d52a544645f0ece67bd64066b42
 
 COCOAPODS: 1.8.4

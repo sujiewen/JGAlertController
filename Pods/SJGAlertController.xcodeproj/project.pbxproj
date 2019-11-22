@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1268B45B73FC43827022D5C08490A479 /* JGAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FBA557526A6B3CAC88C407CF6A75294 /* JGAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D4A9F7FA206D85467BB26F290C8871E /* UIViewController+JGACAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EEC27AD4529D551A9B84BBA8B2A5A9 /* UIViewController+JGACAlertController.m */; };
+		414E27CAFD9F6C0D624E5F9C729D1743 /* UIAlertController+JGACAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E6BB40340D65428F6A5EA75D409DDF /* UIAlertController+JGACAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		493662DFD5BF788CA350584C35447EA1 /* JGACAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE07316861EADE22A52289A1BED3DAD /* JGACAlertController.m */; };
+		6FBEA5A3F4C91CF701ED5A963740C4ED /* SJGAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C395531790D4565E51639CE46DE7BA /* SJGAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9636380741A38F08BB335806BD127C41 /* SJGAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F0F1FD9AB9013916E030F31CC72685 /* SJGAlertController-dummy.m */; };
+		E09FF5E82DDA0431E96B2DB50A71EBEC /* JGSourceBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A440AB5CE16F6DB4ACF7F186CA029A /* JGSourceBase.framework */; };
+		E328CA0CC6A6E72E9613C78406B1CB25 /* JGACAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 451D889028EE197305D9D3201CC30DFD /* JGACAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1168B8BC4FC4263873EE320C90F2905 /* UIAlertController+JGACAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0C4893008DC29C32DB47568B6BB814 /* UIAlertController+JGACAlertController.m */; };
+		F6B64D35BF6B36E34447B8EA72A230BE /* UIViewController+JGACAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03453F7AB499347FF64E738D7CB5149B /* UIViewController+JGACAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF68FE259932A58CB6F7D077F697C523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2E660F1127077B519D4FC5F4A986A1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F779F7142632875A60A9436BA8A6A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C3A273096E6FFB6140E3D5B1CAC78F /* JGSourceBase.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D9B537FE38FF099D5762D923813D56;
+			remoteInfo = JGSourceBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03453F7AB499347FF64E738D7CB5149B /* UIViewController+JGACAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JGACAlertController.h"; path = "JGAlertController/UIViewController+JGACAlertController.h"; sourceTree = "<group>"; };
+		23E1BA23A01B9110449239856017C39F /* SJGAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SJGAlertController.modulemap; sourceTree = "<group>"; };
+		34C3A273096E6FFB6140E3D5B1CAC78F /* JGSourceBase */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JGSourceBase; path = JGSourceBase.xcodeproj; sourceTree = "<group>"; };
+		44B70CF7D69B9F51E6FDA7BD8E74FC0C /* SJGAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SJGAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		451D889028EE197305D9D3201CC30DFD /* JGACAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGACAlertController.h; path = JGAlertController/JGACAlertController.h; sourceTree = "<group>"; };
+		45F0F1FD9AB9013916E030F31CC72685 /* SJGAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SJGAlertController-dummy.m"; sourceTree = "<group>"; };
+		4B0C4893008DC29C32DB47568B6BB814 /* UIAlertController+JGACAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+JGACAlertController.m"; path = "JGAlertController/UIAlertController+JGACAlertController.m"; sourceTree = "<group>"; };
+		62E6BB40340D65428F6A5EA75D409DDF /* UIAlertController+JGACAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+JGACAlertController.h"; path = "JGAlertController/UIAlertController+JGACAlertController.h"; sourceTree = "<group>"; };
+		7BE07316861EADE22A52289A1BED3DAD /* JGACAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGACAlertController.m; path = JGAlertController/JGACAlertController.m; sourceTree = "<group>"; };
+		856B79BF67CE7F748CFCCFCE437D4ED4 /* SJGAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJGAlertController.xcconfig; sourceTree = "<group>"; };
+		8E04EFE689F4BB2A90EE28F4461694D7 /* SJGAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SJGAlertController-Info.plist"; sourceTree = "<group>"; };
+		8FBA557526A6B3CAC88C407CF6A75294 /* JGAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGAlertController.h; path = JGAlertController/JGAlertController.h; sourceTree = "<group>"; };
+		95164E187777322467AF7DF1D6A35105 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AD2E660F1127077B519D4FC5F4A986A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4C395531790D4565E51639CE46DE7BA /* SJGAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJGAlertController-umbrella.h"; sourceTree = "<group>"; };
+		DB825A5AC626E6858C1EB2C927F11437 /* SJGAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SJGAlertController.framework; path = SJGAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AE3B2F799C714F14BABB25F142A236 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F1A440AB5CE16F6DB4ACF7F186CA029A /* JGSourceBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JGSourceBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EEC27AD4529D551A9B84BBA8B2A5A9 /* UIViewController+JGACAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JGACAlertController.m"; path = "JGAlertController/UIViewController+JGACAlertController.m"; sourceTree = "<group>"; };
+		FF4E973CD1677355EE5F75AEBEE47746 /* SJGAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJGAlertController-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44160E2BE6E6D2126B741451A190B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF68FE259932A58CB6F7D077F697C523 /* Foundation.framework in Frameworks */,
+				E09FF5E82DDA0431E96B2DB50A71EBEC /* JGSourceBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE046842EECC90C4F4352A4FE2BF1A8 /* SJGAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				451D889028EE197305D9D3201CC30DFD /* JGACAlertController.h */,
+				7BE07316861EADE22A52289A1BED3DAD /* JGACAlertController.m */,
+				8FBA557526A6B3CAC88C407CF6A75294 /* JGAlertController.h */,
+				62E6BB40340D65428F6A5EA75D409DDF /* UIAlertController+JGACAlertController.h */,
+				4B0C4893008DC29C32DB47568B6BB814 /* UIAlertController+JGACAlertController.m */,
+				03453F7AB499347FF64E738D7CB5149B /* UIViewController+JGACAlertController.h */,
+				F7EEC27AD4529D551A9B84BBA8B2A5A9 /* UIViewController+JGACAlertController.m */,
+				72AFB6425E1DCC94C44237131F379AAB /* Pod */,
+				54E9BF67ECE774E11299668D323190FF /* Support Files */,
+			);
+			name = SJGAlertController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		436FC09FCDBBA633E438B33031B3CA59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1A440AB5CE16F6DB4ACF7F186CA029A /* JGSourceBase.framework */,
+				9FE2F9A8E3D57FAEC0986E80A3F605DF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54E9BF67ECE774E11299668D323190FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23E1BA23A01B9110449239856017C39F /* SJGAlertController.modulemap */,
+				856B79BF67CE7F748CFCCFCE437D4ED4 /* SJGAlertController.xcconfig */,
+				45F0F1FD9AB9013916E030F31CC72685 /* SJGAlertController-dummy.m */,
+				8E04EFE689F4BB2A90EE28F4461694D7 /* SJGAlertController-Info.plist */,
+				FF4E973CD1677355EE5F75AEBEE47746 /* SJGAlertController-prefix.pch */,
+				D4C395531790D4565E51639CE46DE7BA /* SJGAlertController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/SJGAlertController";
+			sourceTree = "<group>";
+		};
+		72AFB6425E1DCC94C44237131F379AAB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE3B2F799C714F14BABB25F142A236 /* LICENSE */,
+				95164E187777322467AF7DF1D6A35105 /* README.md */,
+				44B70CF7D69B9F51E6FDA7BD8E74FC0C /* SJGAlertController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B27ECC60460D459C31645CF768D515C = {
+			isa = PBXGroup;
+			children = (
+				E4D01B92EDD4FAA81ECB3A662235D7FA /* Dependencies */,
+				436FC09FCDBBA633E438B33031B3CA59 /* Frameworks */,
+				E21E79A70B1EF4B2DC09DF4705C6629E /* Products */,
+				2FE046842EECC90C4F4352A4FE2BF1A8 /* SJGAlertController */,
+			);
+			sourceTree = "<group>";
+		};
+		9FE2F9A8E3D57FAEC0986E80A3F605DF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD2E660F1127077B519D4FC5F4A986A1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E21E79A70B1EF4B2DC09DF4705C6629E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB825A5AC626E6858C1EB2C927F11437 /* SJGAlertController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4D01B92EDD4FAA81ECB3A662235D7FA /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				34C3A273096E6FFB6140E3D5B1CAC78F /* JGSourceBase */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68A5AD459F46517A10B23B00E607948D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E328CA0CC6A6E72E9613C78406B1CB25 /* JGACAlertController.h in Headers */,
+				1268B45B73FC43827022D5C08490A479 /* JGAlertController.h in Headers */,
+				6FBEA5A3F4C91CF701ED5A963740C4ED /* SJGAlertController-umbrella.h in Headers */,
+				414E27CAFD9F6C0D624E5F9C729D1743 /* UIAlertController+JGACAlertController.h in Headers */,
+				F6B64D35BF6B36E34447B8EA72A230BE /* UIViewController+JGACAlertController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DEA8D803BBDF5859F2ED313765F3170 /* SJGAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06840390F1F5A667752D807C2C201F56 /* Build configuration list for PBXNativeTarget "SJGAlertController" */;
+			buildPhases = (
+				68A5AD459F46517A10B23B00E607948D /* Headers */,
+				6C0C1B12375D66DE5E3F383C00C98117 /* Sources */,
+				E44160E2BE6E6D2126B741451A190B7C /* Frameworks */,
+				7170731DE9383EA439BB1C1C1B60D356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A8FE1F8DB4DF1A0292ED29204E459F /* PBXTargetDependency */,
+			);
+			name = SJGAlertController;
+			productName = SJGAlertController;
+			productReference = DB825A5AC626E6858C1EB2C927F11437 /* SJGAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9BED7F7C39909CF89C73B3093B1B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = B9F9F0AFD18F1C2382B3E44CFBB74D4A /* Build configuration list for PBXProject "SJGAlertController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B27ECC60460D459C31645CF768D515C;
+			productRefGroup = E21E79A70B1EF4B2DC09DF4705C6629E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 34C3A273096E6FFB6140E3D5B1CAC78F /* JGSourceBase */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1DEA8D803BBDF5859F2ED313765F3170 /* SJGAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7170731DE9383EA439BB1C1C1B60D356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C0C1B12375D66DE5E3F383C00C98117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493662DFD5BF788CA350584C35447EA1 /* JGACAlertController.m in Sources */,
+				9636380741A38F08BB335806BD127C41 /* SJGAlertController-dummy.m in Sources */,
+				F1168B8BC4FC4263873EE320C90F2905 /* UIAlertController+JGACAlertController.m in Sources */,
+				3D4A9F7FA206D85467BB26F290C8871E /* UIViewController+JGACAlertController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89A8FE1F8DB4DF1A0292ED29204E459F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JGSourceBase;
+			targetProxy = 6F779F7142632875A60A9436BA8A6A2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E55BF8EC26FC334728F36FD1FFA30CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8FD28951316EDC5D73EB3541ED66B6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856B79BF67CE7F748CFCCFCE437D4ED4 /* SJGAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SJGAlertController/SJGAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SJGAlertController/SJGAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SJGAlertController/SJGAlertController.modulemap";
+				PRODUCT_MODULE_NAME = SJGAlertController;
+				PRODUCT_NAME = SJGAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1D0D033A720569957E105AC1740034B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F7EE8831F5A599CAC6705B032CF8ADC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856B79BF67CE7F748CFCCFCE437D4ED4 /* SJGAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SJGAlertController/SJGAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SJGAlertController/SJGAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SJGAlertController/SJGAlertController.modulemap";
+				PRODUCT_MODULE_NAME = SJGAlertController;
+				PRODUCT_NAME = SJGAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06840390F1F5A667752D807C2C201F56 /* Build configuration list for PBXNativeTarget "SJGAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EE8831F5A599CAC6705B032CF8ADC6 /* Debug */,
+				8FD28951316EDC5D73EB3541ED66B6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F9F0AFD18F1C2382B3E44CFBB74D4A /* Build configuration list for PBXProject "SJGAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D0D033A720569957E105AC1740034B /* Debug */,
+				3E55BF8EC26FC334728F36FD1FFA30CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9BED7F7C39909CF89C73B3093B1B5D /* Project object */;
+}

@@ -19,7 +19,7 @@ platform :ios, '8.0'
 target "JGAlertControllerDemo" do
     
     # Local
-    pod 'JGAlertController', :path => "."
+    pod 'SJGAlertController', :path => "."
 
     # project
     project "JGAlertControllerDemo/JGAlertControllerDemo.xcodeproj"

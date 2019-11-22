@@ -8,7 +8,7 @@
 
 #import "ActionSheetTableViewController.h"
 #import <JGSourceBase/JGSourceBase.h>
-#import <JGAlertController/JGAlertController.h>
+#import <SJGAlertController/JGAlertController.h>
 #import "JGDemoTableData.h"
 
 @interface ActionSheetTableViewController ()

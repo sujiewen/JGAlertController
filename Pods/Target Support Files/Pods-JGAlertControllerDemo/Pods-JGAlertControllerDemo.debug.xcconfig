@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JGAlertController" "${PODS_CONFIGURATION_BUILD_DIR}/JGSourceBase"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JGSourceBase" "${PODS_CONFIGURATION_BUILD_DIR}/SJGAlertController"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JGAlertController/JGAlertController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JGSourceBase/JGSourceBase.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JGSourceBase/JGSourceBase.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SJGAlertController/SJGAlertController.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "JGAlertController" -framework "JGSourceBase"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "JGSourceBase" -framework "SJGAlertController"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/..
