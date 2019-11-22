@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
     
     s.name          = "JGAlertController"
-    s.version       = "0.0.4"
+    s.version       = "0.0.4.1"
     
     s.summary       = "iOS 弹出系统Alert通用方法定义"
     s.description   = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     },
     
     s.source        = {
-        :git => "https://github.com/dengni8023/JGAlertController.git",
+        :git => "https://github.com/sujiewen/JGAlertController.git",
         :tag => "#{s.version}",
     }
     
@@ -35,17 +35,6 @@ Pod::Spec.new do |s|
     
     s.source_files  = "JGAlertController/*.{h,m}"
     s.public_header_files  = "JGAlertController/*.h"
-    # s.resource    = "JGAlertController/JGAlertController.bundle"
-    
-    # s.framework  = "SomeFramework"
-    # s.frameworks = "SomeFramework", "AnotherFramework"
-    
-    # s.library   = "iconv"
-    # s.libraries = "iconv", "xml2"
-    
-    # s.dependency "SDWebImage", "~> 4.0"
-    # s.dependency "SDWebImage/GIF"
-    # s.dependency "SVProgressHUD", "~> 2.1"
     
     s.dependency "JGSourceBase", "~> 0.1.0"
     

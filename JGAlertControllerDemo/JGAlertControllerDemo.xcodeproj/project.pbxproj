@@ -197,18 +197,13 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../Pods/Target Support Files/Pods-JGAlertControllerDemo/Pods-JGAlertControllerDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JGAlertController/JGAlertController.framework",
-				"${BUILT_PRODUCTS_DIR}/JGSourceBase/JGSourceBase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGAlertController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGSourceBase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-JGAlertControllerDemo/Pods-JGAlertControllerDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JGAlertControllerDemo/Pods-JGAlertControllerDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9203EDEC337A55B58A771D10 /* [CP] Check Pods Manifest.lock */ = {

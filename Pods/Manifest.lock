@@ -9,7 +9,7 @@ DEPENDENCIES:
   - JGAlertController (from `.`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - JGSourceBase
 
 EXTERNAL SOURCES:
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  JGAlertController: e57796f7f175aea99030a088e232b195d420558b
+  JGAlertController: cda2a0bf2e9f566317b7481cd053c25ac29f2707
   JGSourceBase: 03fca616c3686a7197fcac672201d7f083fd7d8b
 
-PODFILE CHECKSUM: 3b16c441f021ea2c05a5b2cf2d19d2fd8e00e1e0
+PODFILE CHECKSUM: 2f0ec704590639717e80ade9f9c1ae099ec0c61c
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

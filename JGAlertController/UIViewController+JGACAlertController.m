@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+JGACAlertController.h"
-#import "JGSourceBase.h"
+#import "JGSourceBase/JGSourceBase.h"
 
 @implementation UIViewController (JGAlertController)
 

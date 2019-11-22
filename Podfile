@@ -1,5 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
+install! 'cocoapods',
+disable_input_output_paths: true,
+generate_multiple_pod_projects: true
+
 # 源码测试请屏蔽此选项，否则源码库内部调用出现的警告将不会提示
 #inhibit_all_warnings!
 # iOS 8使用动态framework
