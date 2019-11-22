@@ -29,10 +29,7 @@ Pod::Spec.new do |s|
     }
     
     s.requires_arc = true
-    s.platforms     = {
-        :ios => 8.0,
-    }
-    
+    s.platform    =  :ios, "8.0"
     s.source_files  = "JGAlertController/*.{h,m}"
     s.public_header_files  = "JGAlertController/*.h"
     
