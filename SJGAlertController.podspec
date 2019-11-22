@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     
-    s.name          = "JGAlertController"
+    s.name          = "SJGAlertController"
     s.version       = "0.0.4.1"
     
     s.summary       = "iOS 弹出系统Alert通用方法定义"
